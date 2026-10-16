@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <title>Formulários</title>
+  </head>
+  <body>
+    <!-- Ficheiro usado pelo Netlify para detetar o formulário em tempo de build. Os campos têm de coincidir com o formulário React. -->
+    <form name="contacto" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="contacto" />
+      <input name="bot-field" />
+      <input name="nome" />
+      <input name="telefone" type="tel" />
+      <input name="email" type="email" />
+      <input name="matricula" />
+      <select name="servico"><option value="">-</option></select>
+      <textarea name="mensagem"></textarea>
+      <input name="consentimento" type="checkbox" value="Aceito" />
+    </form>
+  </body>
+</html>
